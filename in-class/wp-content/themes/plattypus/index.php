@@ -4,14 +4,23 @@
     while( have_posts() ){
       the_post();
       ?>
-      <article id="post-ID" class="post">
+      <article <?php post_class(); ?>>
         <h2 class="entry-title">
           <a href="<?php the_permalink(); ?>">
             <?php the_title(); ?>
           </a>
         </h2>
+        <?php the_post_thumbnail('medium'); ?>
         <div class="entry-content">
-          <?php the_content(); ?>
+          <?php
+          if ( is_singular() ){
+            //single post, page, attachents, etc
+            the_content();
+          }else{
+            //not singular : archives, blog, search results
+            the_excerpt();
+          }
+          ?>
         </div>
         <div class="postmeta">
           <span class="author">by: <?php the_author(); ?> </span>
@@ -25,6 +34,7 @@
       <!-- end .post -->
       <?php
     }//end while
+    comments_template();
   }//end if there are posts
   else{
     echo 'Sorry, no posts to show';

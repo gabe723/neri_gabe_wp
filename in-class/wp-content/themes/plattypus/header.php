@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400" />
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
-<body>
+<body <?php body_class(); ?>>
   <header role="banner" id="header">
     <div class="header-bar">
       <h1 class="site-title"><a href="<?php echo home_url(); ?>">
