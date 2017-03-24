@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+ // wp-admin password: i3MRt@3!Z$vy5dNxjT
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'gabe_wp');
