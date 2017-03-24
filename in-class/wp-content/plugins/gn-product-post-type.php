@@ -37,12 +37,24 @@ function gn_post_type_register(){
       'search_items'         => 'Search Brands',
     ),
   ) );
+  //Attach "brands" taxomony to our products
+  register_taxonomy( 'feature', 'product', array(
+    'hierarchical'      => false,
+    'show_admin_column' => true,
+    'labels'            => array(
+      'name'                 => 'Features',
+      'singular_name'        => 'Feature',
+      'add_new_item'         => 'Add New Feature',
+      'not_found'            => 'No features found.',
+      'search_items'         => 'Search Features',
+    ),
+  ) );
 }
 
 /**
- * Flush permalinks (rewrite rules) when this plugin is activated
- * Prevents 404 errors
- */
+* Flush permalinks (rewrite rules) when this plugin is activated
+* Prevents 404 errors
+*/
 function gn_flush(){
   gn_post_type_register();
   flush_rewrite_rules();
