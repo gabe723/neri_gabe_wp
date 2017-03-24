@@ -25,4 +25,26 @@ function gn_post_type_register(){
       'search_items'     => 'Search Products',
     ),
   ) );
+  //Attach "brands" taxomony to our products
+  register_taxonomy( 'brand', 'product', array(
+    'hierarchical'      => true,
+    'show_admin_column' => true,
+    'labels'            => array(
+      'name'                 => 'Brands',
+      'singular_name'        => 'Brand',
+      'add_new_item'         => 'Add New Brand',
+      'not_found'            => 'No brands found.',
+      'search_items'         => 'Search Brands',
+    ),
+  ) );
 }
+
+/**
+ * Flush permalinks (rewrite rules) when this plugin is activated
+ * Prevents 404 errors
+ */
+function gn_flush(){
+  gn_post_type_register();
+  flush_rewrite_rules();
+}
+register_activation_hook( __FILE__, 'gn_flush' );
