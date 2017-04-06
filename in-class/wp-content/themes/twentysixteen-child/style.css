@@ -1,0 +1,33 @@
+/*
+Theme Name: Twenty Sixteen Child
+Description: Demo of child themes
+Author: Gabe Neri
+License: GPLv3
+Version: 0.1
+Template: twentysixteen
+*/
+body{
+  background-color: tomato;
+  font-family: Lato, sans-serif;
+}
+/* Font Change */
+.entry-title,
+.page-title,
+.widget .widget-title,
+.site-title,
+.main-navigation{
+  font-family: Lato, sans-serif;
+}
+
+@media screen and (min-width:600px){
+  .footer-widgets .widget{
+    width: 20%;
+    float: left;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .footer-widgets .widget{
+    width: 30%;
+  }
+}
