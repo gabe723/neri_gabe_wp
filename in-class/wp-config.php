@@ -28,7 +28,7 @@ define('DB_NAME', 'gabe_wp');
 define('DB_USER', 'gn_wp');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'XZmN9H5sXb4F522C');
+define('DB_PASSWORD', 'rvsKm01VbyRX0R3I');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
