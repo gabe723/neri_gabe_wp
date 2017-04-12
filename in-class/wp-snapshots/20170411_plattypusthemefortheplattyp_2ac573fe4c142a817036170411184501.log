@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-04-11 18:45:55
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.4
+WORDPRESS:	4.7.3
+PHP INFO:	5.6.28 | SAPI: apache2handler
+SERVER:		Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 19.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:14 | filtered:0 | create:14 
+FILTERED: [] 
+SQL CREATED: 20170411_plattypusthemefortheplattyp_2ac573fe4c142a817036170411184501_database.sql 
+SQL FILE SIZE: 1.09MB (1140636) 
+SQL FILE TIME: 2017-04-11 18:45:56 
+SQL RUNTIME: 0.49 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/neri_gabe_wp/in-class 
+ARCHIVE FILE: 20170411_plattypusthemefortheplattyp_2ac573fe4c142a817036170411184501_archive.zip 
+FILTERS: *OFF* 
+DIRS: not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	77.6MB 
+STATS:	Dirs 367 | Files 2,403 
+SQL ADDED: 20170411_plattypusthemefortheplattyp_2ac573fe4c142a817036170411184501_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2770
+    [filename] => C:\xampp\htdocs\neri_gabe_wp\in-class\wp-snapshots\tmp\20170411_plattypusthemefortheplattyp_2ac573fe4c142a817036170411184501_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 59.32MB 
+ARCHIVE RUNTIME: 30.48 sec. 
+MEMORY STACK: 20.5MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [C:/xampp/htdocs/neri_gabe_wp/in-class/wp-snapshots/tmp/20170411_plattypusthemefortheplattyp_2ac573fe4c142a817036170411184501_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.09MB 
+Installer File: 419.72KB 
+Archive File: 59.32MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 41.04 sec.
+PEAK PHP MEMORY USED: 23MB
+DONE PROCESSING => 20170411_plattypusthemefortheplattyp 2017-04-11 18:46:36
+ 
