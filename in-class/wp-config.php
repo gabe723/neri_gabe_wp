@@ -39,7 +39,7 @@ if ( $_SERVER['HTTP_HOST'] == 'localhost' ) {
   define('DB_NAME', 'gneri723_test');
 
   /** MySQL database username */
-  define('DB_USER', 'gneri723_t');
+  define('DB_USER', 'gneri723_test');
 
   /** MySQL database password */
   define('DB_PASSWORD', 'NucB?L~94@q,');
@@ -64,6 +64,7 @@ define('DB_COLLATE', '');
 *
 * @since 2.6.0
 */
+
 define('AUTH_KEY',         'Q{:F$x!P2M$m`:/iRRfv:8D%}V/ly||>krZ;ivFpUKr-LUh:BD|WeO+L$1ZmNHRD');
 define('SECURE_AUTH_KEY',  'ZC^Jh87`X49r2^sl-1uLmf:;_2rYrapIrC:Z#mYv+bT? XgmXgybz1qAG7-g= L.');
 define('LOGGED_IN_KEY',    '0G-d9/d|iN k9@q=H^`Y-lxP-Z(gD08fD|:60?we pp(:T2$V*)}&rBJ6TZ336TP');
