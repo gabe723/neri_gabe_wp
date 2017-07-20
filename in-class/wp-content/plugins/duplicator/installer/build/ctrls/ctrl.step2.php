@@ -7,6 +7,7 @@ $_POST['ssl_login']			= (isset($_POST['ssl_login']))  ? true : false;
 $_POST['cache_wp']			= (isset($_POST['cache_wp']))   ? true : false;
 $_POST['cache_path']		= (isset($_POST['cache_path'])) ? true : false;
 $_POST['archive_name']		= isset($_POST['archive_name']) ? $_POST['archive_name'] : null;
+$_POST['retain_config']		= (isset($_POST['retain_config']) && $_POST['retain_config'] == '1') ? true : false;
 
 //LOGGING
 $POST_LOG = $_POST;
@@ -378,7 +379,7 @@ if ($result = mysqli_query($dbh, "SHOW TABLES")) {
 }
 
 if ($dbtable_count == 0) {
-	DUPX_Log::error("No tables where created during step 2 of the install.  Please review the <a href='installer-log.txt' target='_blank'>installer-log.txt</a> file for
+	DUPX_Log::error("No tables where created during step 2 of the install.  Please review the <a href='installer-log.txt' target='install_log'>installer-log.txt</a> file for
 		ERROR messages.  You may have to manually run the installer-data.sql with a tool like phpmyadmin to validate the data input.  If you have enabled compatibility mode
 		during the package creation process then the database server version your using may not be compatible with this script.\n");
 }

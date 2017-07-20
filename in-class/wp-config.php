@@ -18,6 +18,8 @@
 * @package WordPress
 */
 
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\neri_gabe_wp\in-class\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 // wp-admin password: i3MRt@3!Z$vy5dNxjT
 // HG ftp account pw: ,A)Fa(Wb^5-r
 // HG ftp account user login: test@gabeneri.com
